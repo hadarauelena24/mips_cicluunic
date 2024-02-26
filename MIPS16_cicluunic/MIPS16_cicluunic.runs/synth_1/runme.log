@@ -1,0 +1,471 @@
+
+*** Running vivado
+    with args -log MIPS16_unic.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source MIPS16_unic.tcl
+
+
+****** Vivado v2016.4 (64-bit)
+  **** SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+  **** IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source MIPS16_unic.tcl -notrace
+Command: synth_design -top MIPS16_unic -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 16180 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:07 . Memory (MB): peak = 281.797 ; gain = 72.266
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'MIPS16_unic' [C:/Users/elena/OneDrive/Desktop/facultate/an2/AC/MIPS16_cicluunic/MIPS16_cicluunic.srcs/sources_1/new/MIPS16_unic.vhd:66]
+INFO: [Synth 8-3491] module 'SSD' declared at 'C:/Users/elena/OneDrive/Desktop/facultate/an2/AC/MIPS16_cicluunic/MIPS16_cicluunic.srcs/sources_1/new/SSD.vhd:36' bound to instance 'segdisplay' of component 'SSD' [C:/Users/elena/OneDrive/Desktop/facultate/an2/AC/MIPS16_cicluunic/MIPS16_cicluunic.srcs/sources_1/new/MIPS16_unic.vhd:186]
+INFO: [Synth 8-638] synthesizing module 'SSD' [C:/Users/elena/OneDrive/Desktop/facultate/an2/AC/MIPS16_cicluunic/MIPS16_cicluunic.srcs/sources_1/new/SSD.vhd:46]
+INFO: [Synth 8-3491] module 'HEX7TOSEG' declared at 'C:/Users/elena/OneDrive/Desktop/facultate/an2/AC/MIPS16_cicluunic/MIPS16_cicluunic.srcs/sources_1/new/HEXTO7SEG.vhd:37' bound to instance 'seg' of component 'HEX7TOSEG' [C:/Users/elena/OneDrive/Desktop/facultate/an2/AC/MIPS16_cicluunic/MIPS16_cicluunic.srcs/sources_1/new/SSD.vhd:75]
+INFO: [Synth 8-638] synthesizing module 'HEX7TOSEG' [C:/Users/elena/OneDrive/Desktop/facultate/an2/AC/MIPS16_cicluunic/MIPS16_cicluunic.srcs/sources_1/new/HEXTO7SEG.vhd:42]
+INFO: [Synth 8-256] done synthesizing module 'HEX7TOSEG' (1#1) [C:/Users/elena/OneDrive/Desktop/facultate/an2/AC/MIPS16_cicluunic/MIPS16_cicluunic.srcs/sources_1/new/HEXTO7SEG.vhd:42]
+INFO: [Synth 8-256] done synthesizing module 'SSD' (2#1) [C:/Users/elena/OneDrive/Desktop/facultate/an2/AC/MIPS16_cicluunic/MIPS16_cicluunic.srcs/sources_1/new/SSD.vhd:46]
+INFO: [Synth 8-3491] module 'monoimpuls' declared at 'C:/Users/elena/OneDrive/Desktop/facultate/an2/AC/MIPS16_cicluunic/MIPS16_cicluunic.srcs/sources_1/new/monoimpuls.vhd:36' bound to instance 'monopulseR' of component 'monoimpuls' [C:/Users/elena/OneDrive/Desktop/facultate/an2/AC/MIPS16_cicluunic/MIPS16_cicluunic.srcs/sources_1/new/MIPS16_unic.vhd:187]
+INFO: [Synth 8-638] synthesizing module 'monoimpuls' [C:/Users/elena/OneDrive/Desktop/facultate/an2/AC/MIPS16_cicluunic/MIPS16_cicluunic.srcs/sources_1/new/monoimpuls.vhd:42]
+INFO: [Synth 8-256] done synthesizing module 'monoimpuls' (3#1) [C:/Users/elena/OneDrive/Desktop/facultate/an2/AC/MIPS16_cicluunic/MIPS16_cicluunic.srcs/sources_1/new/monoimpuls.vhd:42]
+INFO: [Synth 8-3491] module 'monoimpuls' declared at 'C:/Users/elena/OneDrive/Desktop/facultate/an2/AC/MIPS16_cicluunic/MIPS16_cicluunic.srcs/sources_1/new/monoimpuls.vhd:36' bound to instance 'monopulseW' of component 'monoimpuls' [C:/Users/elena/OneDrive/Desktop/facultate/an2/AC/MIPS16_cicluunic/MIPS16_cicluunic.srcs/sources_1/new/MIPS16_unic.vhd:188]
+INFO: [Synth 8-3491] module 'IFF' declared at 'C:/Users/elena/OneDrive/Desktop/facultate/an2/AC/MIPS16_cicluunic/MIPS16_cicluunic.srcs/sources_1/new/IF.vhd:36' bound to instance 'ifschema' of component 'IFF' [C:/Users/elena/OneDrive/Desktop/facultate/an2/AC/MIPS16_cicluunic/MIPS16_cicluunic.srcs/sources_1/new/MIPS16_unic.vhd:189]
+INFO: [Synth 8-638] synthesizing module 'IFF' [C:/Users/elena/OneDrive/Desktop/facultate/an2/AC/MIPS16_cicluunic/MIPS16_cicluunic.srcs/sources_1/new/IF.vhd:48]
+INFO: [Synth 8-256] done synthesizing module 'IFF' (4#1) [C:/Users/elena/OneDrive/Desktop/facultate/an2/AC/MIPS16_cicluunic/MIPS16_cicluunic.srcs/sources_1/new/IF.vhd:48]
+INFO: [Synth 8-3491] module 'UC' declared at 'C:/Users/elena/OneDrive/Desktop/facultate/an2/AC/MIPS16_cicluunic/MIPS16_cicluunic.srcs/sources_1/new/UC.vhd:34' bound to instance 'maincontrol' of component 'UC' [C:/Users/elena/OneDrive/Desktop/facultate/an2/AC/MIPS16_cicluunic/MIPS16_cicluunic.srcs/sources_1/new/MIPS16_unic.vhd:190]
+INFO: [Synth 8-638] synthesizing module 'UC' [C:/Users/elena/OneDrive/Desktop/facultate/an2/AC/MIPS16_cicluunic/MIPS16_cicluunic.srcs/sources_1/new/UC.vhd:49]
+INFO: [Synth 8-256] done synthesizing module 'UC' (5#1) [C:/Users/elena/OneDrive/Desktop/facultate/an2/AC/MIPS16_cicluunic/MIPS16_cicluunic.srcs/sources_1/new/UC.vhd:49]
+INFO: [Synth 8-3491] module 'ID' declared at 'C:/Users/elena/OneDrive/Desktop/facultate/an2/AC/MIPS16_cicluunic/MIPS16_cicluunic.srcs/sources_1/new/ID.vhd:36' bound to instance 'idschema' of component 'ID' [C:/Users/elena/OneDrive/Desktop/facultate/an2/AC/MIPS16_cicluunic/MIPS16_cicluunic.srcs/sources_1/new/MIPS16_unic.vhd:191]
+INFO: [Synth 8-638] synthesizing module 'ID' [C:/Users/elena/OneDrive/Desktop/facultate/an2/AC/MIPS16_cicluunic/MIPS16_cicluunic.srcs/sources_1/new/ID.vhd:52]
+INFO: [Synth 8-3491] module 'RF' declared at 'C:/Users/elena/OneDrive/Desktop/facultate/an2/AC/MIPS16_cicluunic/MIPS16_cicluunic.srcs/sources_1/new/RF.vhd:36' bound to instance 'reg_file' of component 'RF' [C:/Users/elena/OneDrive/Desktop/facultate/an2/AC/MIPS16_cicluunic/MIPS16_cicluunic.srcs/sources_1/new/ID.vhd:67]
+INFO: [Synth 8-638] synthesizing module 'RF' [C:/Users/elena/OneDrive/Desktop/facultate/an2/AC/MIPS16_cicluunic/MIPS16_cicluunic.srcs/sources_1/new/RF.vhd:48]
+INFO: [Synth 8-256] done synthesizing module 'RF' (6#1) [C:/Users/elena/OneDrive/Desktop/facultate/an2/AC/MIPS16_cicluunic/MIPS16_cicluunic.srcs/sources_1/new/RF.vhd:48]
+WARNING: [Synth 8-614] signal 'instr' is read in the process but is not in the sensitivity list [C:/Users/elena/OneDrive/Desktop/facultate/an2/AC/MIPS16_cicluunic/MIPS16_cicluunic.srcs/sources_1/new/ID.vhd:71]
+INFO: [Synth 8-256] done synthesizing module 'ID' (7#1) [C:/Users/elena/OneDrive/Desktop/facultate/an2/AC/MIPS16_cicluunic/MIPS16_cicluunic.srcs/sources_1/new/ID.vhd:52]
+INFO: [Synth 8-3491] module 'EX' declared at 'C:/Users/elena/OneDrive/Desktop/facultate/an2/AC/MIPS16_cicluunic/MIPS16_cicluunic.srcs/sources_1/new/EX.vhd:36' bound to instance 'exschema' of component 'EX' [C:/Users/elena/OneDrive/Desktop/facultate/an2/AC/MIPS16_cicluunic/MIPS16_cicluunic.srcs/sources_1/new/MIPS16_unic.vhd:192]
+INFO: [Synth 8-638] synthesizing module 'EX' [C:/Users/elena/OneDrive/Desktop/facultate/an2/AC/MIPS16_cicluunic/MIPS16_cicluunic.srcs/sources_1/new/EX.vhd:50]
+WARNING: [Synth 8-614] signal 'dif' is read in the process but is not in the sensitivity list [C:/Users/elena/OneDrive/Desktop/facultate/an2/AC/MIPS16_cicluunic/MIPS16_cicluunic.srcs/sources_1/new/EX.vhd:77]
+INFO: [Synth 8-256] done synthesizing module 'EX' (8#1) [C:/Users/elena/OneDrive/Desktop/facultate/an2/AC/MIPS16_cicluunic/MIPS16_cicluunic.srcs/sources_1/new/EX.vhd:50]
+INFO: [Synth 8-3491] module 'MEM' declared at 'C:/Users/elena/OneDrive/Desktop/facultate/an2/AC/MIPS16_cicluunic/MIPS16_cicluunic.srcs/sources_1/new/MEM.vhd:36' bound to instance 'memschema' of component 'MEM' [C:/Users/elena/OneDrive/Desktop/facultate/an2/AC/MIPS16_cicluunic/MIPS16_cicluunic.srcs/sources_1/new/MIPS16_unic.vhd:193]
+INFO: [Synth 8-638] synthesizing module 'MEM' [C:/Users/elena/OneDrive/Desktop/facultate/an2/AC/MIPS16_cicluunic/MIPS16_cicluunic.srcs/sources_1/new/MEM.vhd:46]
+WARNING: [Synth 8-614] signal 'ALUres' is read in the process but is not in the sensitivity list [C:/Users/elena/OneDrive/Desktop/facultate/an2/AC/MIPS16_cicluunic/MIPS16_cicluunic.srcs/sources_1/new/MEM.vhd:51]
+INFO: [Synth 8-256] done synthesizing module 'MEM' (9#1) [C:/Users/elena/OneDrive/Desktop/facultate/an2/AC/MIPS16_cicluunic/MIPS16_cicluunic.srcs/sources_1/new/MEM.vhd:46]
+WARNING: [Synth 8-614] signal 'instr' is read in the process but is not in the sensitivity list [C:/Users/elena/OneDrive/Desktop/facultate/an2/AC/MIPS16_cicluunic/MIPS16_cicluunic.srcs/sources_1/new/MIPS16_unic.vhd:199]
+WARNING: [Synth 8-614] signal 'pc' is read in the process but is not in the sensitivity list [C:/Users/elena/OneDrive/Desktop/facultate/an2/AC/MIPS16_cicluunic/MIPS16_cicluunic.srcs/sources_1/new/MIPS16_unic.vhd:199]
+WARNING: [Synth 8-614] signal 'rd1' is read in the process but is not in the sensitivity list [C:/Users/elena/OneDrive/Desktop/facultate/an2/AC/MIPS16_cicluunic/MIPS16_cicluunic.srcs/sources_1/new/MIPS16_unic.vhd:199]
+WARNING: [Synth 8-614] signal 'rd2' is read in the process but is not in the sensitivity list [C:/Users/elena/OneDrive/Desktop/facultate/an2/AC/MIPS16_cicluunic/MIPS16_cicluunic.srcs/sources_1/new/MIPS16_unic.vhd:199]
+WARNING: [Synth 8-614] signal 'ext_imm' is read in the process but is not in the sensitivity list [C:/Users/elena/OneDrive/Desktop/facultate/an2/AC/MIPS16_cicluunic/MIPS16_cicluunic.srcs/sources_1/new/MIPS16_unic.vhd:199]
+WARNING: [Synth 8-614] signal 'ALUres' is read in the process but is not in the sensitivity list [C:/Users/elena/OneDrive/Desktop/facultate/an2/AC/MIPS16_cicluunic/MIPS16_cicluunic.srcs/sources_1/new/MIPS16_unic.vhd:199]
+WARNING: [Synth 8-614] signal 'memData' is read in the process but is not in the sensitivity list [C:/Users/elena/OneDrive/Desktop/facultate/an2/AC/MIPS16_cicluunic/MIPS16_cicluunic.srcs/sources_1/new/MIPS16_unic.vhd:199]
+WARNING: [Synth 8-614] signal 'wd' is read in the process but is not in the sensitivity list [C:/Users/elena/OneDrive/Desktop/facultate/an2/AC/MIPS16_cicluunic/MIPS16_cicluunic.srcs/sources_1/new/MIPS16_unic.vhd:199]
+INFO: [Synth 8-256] done synthesizing module 'MIPS16_unic' (10#1) [C:/Users/elena/OneDrive/Desktop/facultate/an2/AC/MIPS16_cicluunic/MIPS16_cicluunic.srcs/sources_1/new/MIPS16_unic.vhd:66]
+WARNING: [Synth 8-3331] design ID has unconnected port instr[15]
+WARNING: [Synth 8-3331] design ID has unconnected port instr[14]
+WARNING: [Synth 8-3331] design ID has unconnected port instr[13]
+WARNING: [Synth 8-3331] design UC has unconnected port instr[12]
+WARNING: [Synth 8-3331] design UC has unconnected port instr[11]
+WARNING: [Synth 8-3331] design UC has unconnected port instr[10]
+WARNING: [Synth 8-3331] design UC has unconnected port instr[9]
+WARNING: [Synth 8-3331] design UC has unconnected port instr[8]
+WARNING: [Synth 8-3331] design UC has unconnected port instr[7]
+WARNING: [Synth 8-3331] design UC has unconnected port instr[6]
+WARNING: [Synth 8-3331] design UC has unconnected port instr[5]
+WARNING: [Synth 8-3331] design UC has unconnected port instr[4]
+WARNING: [Synth 8-3331] design UC has unconnected port instr[3]
+WARNING: [Synth 8-3331] design UC has unconnected port instr[2]
+WARNING: [Synth 8-3331] design UC has unconnected port instr[1]
+WARNING: [Synth 8-3331] design UC has unconnected port instr[0]
+WARNING: [Synth 8-3331] design MIPS16_unic has unconnected port led[15]
+WARNING: [Synth 8-3331] design MIPS16_unic has unconnected port led[14]
+WARNING: [Synth 8-3331] design MIPS16_unic has unconnected port led[13]
+WARNING: [Synth 8-3331] design MIPS16_unic has unconnected port led[12]
+WARNING: [Synth 8-3331] design MIPS16_unic has unconnected port led[11]
+WARNING: [Synth 8-3331] design MIPS16_unic has unconnected port btn[3]
+WARNING: [Synth 8-3331] design MIPS16_unic has unconnected port btn[2]
+WARNING: [Synth 8-3331] design MIPS16_unic has unconnected port btn[1]
+WARNING: [Synth 8-3331] design MIPS16_unic has unconnected port sw[15]
+WARNING: [Synth 8-3331] design MIPS16_unic has unconnected port sw[14]
+WARNING: [Synth 8-3331] design MIPS16_unic has unconnected port sw[13]
+WARNING: [Synth 8-3331] design MIPS16_unic has unconnected port sw[12]
+WARNING: [Synth 8-3331] design MIPS16_unic has unconnected port sw[11]
+WARNING: [Synth 8-3331] design MIPS16_unic has unconnected port sw[10]
+WARNING: [Synth 8-3331] design MIPS16_unic has unconnected port sw[9]
+WARNING: [Synth 8-3331] design MIPS16_unic has unconnected port sw[8]
+WARNING: [Synth 8-3331] design MIPS16_unic has unconnected port sw[4]
+WARNING: [Synth 8-3331] design MIPS16_unic has unconnected port sw[3]
+WARNING: [Synth 8-3331] design MIPS16_unic has unconnected port sw[2]
+WARNING: [Synth 8-3331] design MIPS16_unic has unconnected port sw[1]
+WARNING: [Synth 8-3331] design MIPS16_unic has unconnected port sw[0]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:09 . Memory (MB): peak = 320.188 ; gain = 110.656
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:09 . Memory (MB): peak = 320.188 ; gain = 110.656
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/elena/OneDrive/Desktop/facultate/an2/AC/MIPS16_cicluunic/MIPS16_cicluunic.srcs/constrs_1/new/Basys3_constraints.xdc]
+Finished Parsing XDC File [C:/Users/elena/OneDrive/Desktop/facultate/an2/AC/MIPS16_cicluunic/MIPS16_cicluunic.srcs/constrs_1/new/Basys3_constraints.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/elena/OneDrive/Desktop/facultate/an2/AC/MIPS16_cicluunic/MIPS16_cicluunic.srcs/constrs_1/new/Basys3_constraints.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/MIPS16_unic_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/MIPS16_unic_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 610.930 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:20 ; elapsed = 00:00:32 . Memory (MB): peak = 610.930 ; gain = 401.398
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:20 ; elapsed = 00:00:32 . Memory (MB): peak = 610.930 ; gain = 401.398
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:20 ; elapsed = 00:00:32 . Memory (MB): peak = 610.930 ; gain = 401.398
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5546] ROM "myROM" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/elena/OneDrive/Desktop/facultate/an2/AC/MIPS16_cicluunic/MIPS16_cicluunic.srcs/sources_1/new/EX.vhd:85]
+WARNING: [Synth 8-327] inferring latch for variable 'ext_imm_reg' [C:/Users/elena/OneDrive/Desktop/facultate/an2/AC/MIPS16_cicluunic/MIPS16_cicluunic.srcs/sources_1/new/ID.vhd:74]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:20 ; elapsed = 00:00:33 . Memory (MB): peak = 610.930 ; gain = 401.398
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     16 Bit       Adders := 2     
+	   3 Input     16 Bit       Adders := 1     
++---XORs : 
+	   2 Input     16 Bit         XORs := 1     
++---Registers : 
+	               16 Bit    Registers := 1     
+	                1 Bit    Registers := 6     
++---RAMs : 
+	              512 Bit         RAMs := 1     
+	              128 Bit         RAMs := 1     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 9     
+	 257 Input     16 Bit        Muxes := 1     
+	   8 Input     16 Bit        Muxes := 1     
+	   4 Input      4 Bit        Muxes := 2     
+	   2 Input      3 Bit        Muxes := 1     
+	   4 Input      3 Bit        Muxes := 1     
+	   8 Input      2 Bit        Muxes := 1     
+	   8 Input      1 Bit        Muxes := 9     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module MIPS16_unic 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 1     
+Module SSD 
+Detailed RTL Component Info : 
++---Muxes : 
+	   4 Input      4 Bit        Muxes := 2     
+Module monoimpuls 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 3     
+Module IFF 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     16 Bit       Adders := 1     
++---Registers : 
+	               16 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 2     
+	 257 Input     16 Bit        Muxes := 1     
+Module UC 
+Detailed RTL Component Info : 
++---Muxes : 
+	   8 Input      2 Bit        Muxes := 1     
+	   8 Input      1 Bit        Muxes := 9     
+Module RF 
+Detailed RTL Component Info : 
++---RAMs : 
+	              128 Bit         RAMs := 1     
+Module ID 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 2     
+	   2 Input      3 Bit        Muxes := 1     
+Module EX 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     16 Bit       Adders := 1     
+	   2 Input     16 Bit       Adders := 1     
++---XORs : 
+	   2 Input     16 Bit         XORs := 1     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 4     
+	   8 Input     16 Bit        Muxes := 1     
+	   4 Input      3 Bit        Muxes := 1     
+Module MEM 
+Detailed RTL Component Info : 
++---RAMs : 
+	              512 Bit         RAMs := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-3331] design MIPS16_unic has unconnected port led[15]
+WARNING: [Synth 8-3331] design MIPS16_unic has unconnected port led[14]
+WARNING: [Synth 8-3331] design MIPS16_unic has unconnected port led[13]
+WARNING: [Synth 8-3331] design MIPS16_unic has unconnected port led[12]
+WARNING: [Synth 8-3331] design MIPS16_unic has unconnected port led[11]
+WARNING: [Synth 8-3331] design MIPS16_unic has unconnected port btn[3]
+WARNING: [Synth 8-3331] design MIPS16_unic has unconnected port btn[2]
+WARNING: [Synth 8-3331] design MIPS16_unic has unconnected port btn[1]
+WARNING: [Synth 8-3331] design MIPS16_unic has unconnected port sw[15]
+WARNING: [Synth 8-3331] design MIPS16_unic has unconnected port sw[14]
+WARNING: [Synth 8-3331] design MIPS16_unic has unconnected port sw[13]
+WARNING: [Synth 8-3331] design MIPS16_unic has unconnected port sw[12]
+WARNING: [Synth 8-3331] design MIPS16_unic has unconnected port sw[11]
+WARNING: [Synth 8-3331] design MIPS16_unic has unconnected port sw[10]
+WARNING: [Synth 8-3331] design MIPS16_unic has unconnected port sw[9]
+WARNING: [Synth 8-3331] design MIPS16_unic has unconnected port sw[8]
+WARNING: [Synth 8-3331] design MIPS16_unic has unconnected port sw[4]
+WARNING: [Synth 8-3331] design MIPS16_unic has unconnected port sw[3]
+WARNING: [Synth 8-3331] design MIPS16_unic has unconnected port sw[2]
+WARNING: [Synth 8-3331] design MIPS16_unic has unconnected port sw[1]
+WARNING: [Synth 8-3331] design MIPS16_unic has unconnected port sw[0]
+INFO: [Synth 8-3886] merging instance 'idschema/ext_imm_reg[12]' (LD) to 'idschema/ext_imm_reg[13]'
+INFO: [Synth 8-3886] merging instance 'idschema/ext_imm_reg[13]' (LD) to 'idschema/ext_imm_reg[14]'
+INFO: [Synth 8-3886] merging instance 'idschema/ext_imm_reg[14]' (LD) to 'idschema/ext_imm_reg[15]'
+INFO: [Synth 8-3886] merging instance 'idschema/ext_imm_reg[15]' (LD) to 'idschema/ext_imm_reg[7]'
+INFO: [Synth 8-3886] merging instance 'idschema/ext_imm_reg[7]' (LD) to 'idschema/ext_imm_reg[8]'
+INFO: [Synth 8-3886] merging instance 'idschema/ext_imm_reg[8]' (LD) to 'idschema/ext_imm_reg[9]'
+INFO: [Synth 8-3886] merging instance 'idschema/ext_imm_reg[9]' (LD) to 'idschema/ext_imm_reg[10]'
+INFO: [Synth 8-3886] merging instance 'idschema/ext_imm_reg[10]' (LD) to 'idschema/ext_imm_reg[11]'
+WARNING: [Synth 8-3332] Sequential element (idschema/ext_imm_reg[11]) is unused and will be removed from module MIPS16_unic.
+WARNING: [Synth 8-3332] Sequential element (idschema/ext_imm_reg[6]) is unused and will be removed from module MIPS16_unic.
+WARNING: [Synth 8-3332] Sequential element (idschema/ext_imm_reg[5]) is unused and will be removed from module MIPS16_unic.
+WARNING: [Synth 8-3332] Sequential element (idschema/ext_imm_reg[4]) is unused and will be removed from module MIPS16_unic.
+WARNING: [Synth 8-3332] Sequential element (idschema/ext_imm_reg[3]) is unused and will be removed from module MIPS16_unic.
+WARNING: [Synth 8-3332] Sequential element (idschema/ext_imm_reg[2]) is unused and will be removed from module MIPS16_unic.
+WARNING: [Synth 8-3332] Sequential element (idschema/ext_imm_reg[1]) is unused and will be removed from module MIPS16_unic.
+WARNING: [Synth 8-3332] Sequential element (idschema/ext_imm_reg[0]) is unused and will be removed from module MIPS16_unic.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:25 ; elapsed = 00:00:40 . Memory (MB): peak = 610.930 ; gain = 401.398
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Preliminary Mapping  Report (see note below)
++------------+----------------------------+-----------+----------------------+-----------------+
+|Module Name | RTL Object                 | Inference | Size (Depth x Width) | Primitives      | 
++------------+----------------------------+-----------+----------------------+-----------------+
+|MIPS16_unic | idschema/reg_file/myRF_reg | Implied   | 8 x 16               | RAM32M x 6      | 
+|MIPS16_unic | memschema/RAM_reg          | Implied   | 32 x 16              | RAM32X1S x 16   | 
++------------+----------------------------+-----------+----------------------+-----------------+
+
+Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:46 ; elapsed = 00:01:10 . Memory (MB): peak = 610.930 ; gain = 401.398
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:46 ; elapsed = 00:01:10 . Memory (MB): peak = 610.930 ; gain = 401.398
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:47 ; elapsed = 00:01:11 . Memory (MB): peak = 610.930 ; gain = 401.398
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:48 ; elapsed = 00:01:13 . Memory (MB): peak = 610.930 ; gain = 401.398
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:48 ; elapsed = 00:01:13 . Memory (MB): peak = 610.930 ; gain = 401.398
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:48 ; elapsed = 00:01:13 . Memory (MB): peak = 610.930 ; gain = 401.398
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:48 ; elapsed = 00:01:13 . Memory (MB): peak = 610.930 ; gain = 401.398
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:48 ; elapsed = 00:01:13 . Memory (MB): peak = 610.930 ; gain = 401.398
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:48 ; elapsed = 00:01:13 . Memory (MB): peak = 610.930 ; gain = 401.398
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+---------+------+
+|      |Cell     |Count |
++------+---------+------+
+|1     |BUFG     |     1|
+|2     |CARRY4   |    18|
+|3     |LUT1     |    57|
+|4     |LUT2     |     6|
+|5     |LUT3     |    40|
+|6     |LUT4     |    21|
+|7     |LUT5     |    47|
+|8     |LUT6     |    67|
+|9     |MUXF7    |    32|
+|10    |RAM32M   |     6|
+|11    |RAM32X1S |    16|
+|12    |FDRE     |    46|
+|13    |IBUF     |     6|
+|14    |OBUF     |    22|
+|15    |OBUFT    |     5|
++------+---------+------+
+
+Report Instance Areas: 
++------+-------------+-------------+------+
+|      |Instance     |Module       |Cells |
++------+-------------+-------------+------+
+|1     |top          |             |   390|
+|2     |  exschema   |EX           |    26|
+|3     |  idschema   |ID           |    64|
+|4     |    reg_file |RF           |    64|
+|5     |  ifschema   |IFF          |   198|
+|6     |  memschema  |MEM          |    16|
+|7     |  monopulseR |monoimpuls   |     4|
+|8     |  monopulseW |monoimpuls_0 |     4|
+|9     |  segdisplay |SSD          |    44|
++------+-------------+-------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:48 ; elapsed = 00:01:13 . Memory (MB): peak = 610.930 ; gain = 401.398
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 30 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:35 ; elapsed = 00:00:56 . Memory (MB): peak = 610.930 ; gain = 110.656
+Synthesis Optimization Complete : Time (s): cpu = 00:00:48 ; elapsed = 00:01:13 . Memory (MB): peak = 610.930 ; gain = 401.398
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 46 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 22 instances were transformed.
+  RAM32M => RAM32M (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 6 instances
+  RAM32X1S => RAM32X1S (RAMS32): 16 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+62 Infos, 78 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:47 ; elapsed = 00:01:12 . Memory (MB): peak = 610.930 ; gain = 401.398
+INFO: [Common 17-1381] The checkpoint 'C:/Users/elena/OneDrive/Desktop/facultate/an2/AC/MIPS16_cicluunic/MIPS16_cicluunic.runs/synth_1/MIPS16_unic.dcp' has been generated.
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.031 . Memory (MB): peak = 610.930 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Wed May 10 13:21:23 2023...
